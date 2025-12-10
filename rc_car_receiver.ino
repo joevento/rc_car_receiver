@@ -84,14 +84,14 @@ void loop() {
       case 'v':
         nextCmd.motor_a_speed = 255;
         nextCmd.motor_b_speed = 255;
-        nextCmd.motor_a_direction = false;
-        nextCmd.motor_b_direction = false;
+        nextCmd.motor_a_direction = true;
+        nextCmd.motor_b_direction = true;
         break;
       case 'w':
         nextCmd.motor_a_speed = 255;
         nextCmd.motor_b_speed = 255;
-        nextCmd.motor_a_direction = true;
-        nextCmd.motor_b_direction = true;
+        nextCmd.motor_a_direction = false;
+        nextCmd.motor_b_direction = false;
         break;
       case 'x':
         nextCmd.motor_a_speed = 255;
