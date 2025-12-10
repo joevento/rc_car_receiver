@@ -64,7 +64,7 @@ Find your OBC's MAC address from its serial output during initialization.
 2. Power on receiver ESP32
 3. Open serial monitor at 115200 baud
 4. Wait for "Connected to OBC!" message
-5. Send control commands (v/w/x/y/z), our project had a visualisation and control software developed seperately which mapped WASD to vwxy and would display the lidar data on screen
+5. Send control commands (v/w/x/y/z), our project had a [visualisation and control software](https://github.com/eelivaan/RemoteController2) developed seperately which mapped WASD to vwxy and would display the lidar data on screen
 
 Monitor will show connection status and relay any data from OBC (LiDAR frames, CRC16-CCITT, etc.).
 
@@ -91,7 +91,7 @@ Host PC ──USB Serial──> Receiver ESP32 ──Bluetooth SPP──> OBC ES
          (keyboard)                    (motor commands)
 
 Host PC <──USB Serial── Receiver ESP32 <──Bluetooth SPP── OBC ESP32
-         (LiDAR data)                   (sensor data)
+         (LiDAR data)                   (LiDAR data)
 ```
 
 ## Troubleshooting
@@ -115,7 +115,7 @@ Host PC <──USB Serial── Receiver ESP32 <──Bluetooth SPP── OBC ES
 
 ## Compatible With
 
-This receiver is designed to work with the ESP32 RC Car OBC firmware (link to other repo)
+This receiver is designed to work with the [ESP32 RC Car OBC firmware](https://github.com/joevento/rc_car_obc) and the [visualisation and control software](https://github.com/eelivaan/RemoteController2)
 
 ## License
 
